@@ -1,4 +1,4 @@
-# Portfolio Professionnel - EHOUSSOU Boman-N'gouan Oint Phanuel
+# Portfolio Professionnel - EHOUSSOUS Boman-N'gouan Oint Phanuel
 
 Ce projet est une application web monopage (SPA) moderne, réactive et performante développée avec **React 19**, **Vite** et **Bootstrap 5**, dans le cadre du cursus académique à l'**Institut International de Technologie (IIT)**.
 
@@ -6,89 +6,77 @@ Ce projet est une application web monopage (SPA) moderne, réactive et performan
 
 ## 👨‍💻 À propos du Profil
 
-- **Titulaire :** EHOUSSOU Boman-N'gouan Oint Phanuel
-- **Spécialité :** Cloud Computing, DevOps & Développement Web Full-Stack
+- **Titulaire :** EHOUSSOUS Boman-N'gouan Oint Phanuel
+- **Statut :** Étudiant en Génie Logiciel (depuis 1 an)
 - **Établissement :** Institut International de Technologie (IIT)
-- **Localisation :** Abidjan, Côte d'Ivoire
+- **Localisation :** Grand-Bassam, Côte d'Ivoire
+- **Contact :** phanuelehoussou@gmail.com | +225 05 76 55 59 62
 
 ---
 
-## 🚀 Structure du Portfolio
+## 🛠️ Compétences Techniques (CV)
 
-Le portfolio est organisé selon une navigation fluide respectant le cahier des charges :
+### 1. Langages de programmation
+- **Python** (Pandas, NumPy, Flask) : traitement de données, calculs matriciels et développement backend
+- **HTML5 / CSS3** : structure sémantique, design responsive et animations modernes
+- **C** (programmation système) : gestion de la mémoire (pointeurs, malloc/free) et algorithmique bas niveau
+
+### 2. Frameworks & Bibliothèques
+- **Bootstrap 5** : création d'interfaces ergonomiques et grilles responsives
+- **Flask** : micro-framework web Python, routage dynamique et APIs REST
+- **React 19** : écosystème web moderne et composants réactifs
+
+### 3. Bases de données
+- **SQL Server (T-SQL, requêtes complexes)** : modélisation, jointures avancées, procédures stockées
+- **Conception de schémas relationnels** : normalisation (1NF à 3NF) et intégrité référentielle
+
+### 4. Compétences transversales
+- **Anglais** (niveau conversationnel courant)
+- **Travail d'équipe & collaboration en environnement multiculturel**
+- **Rigueur et esprit analytique**
+- **Méthodologies de développement et architectures logicielles**
+
+### 5. Activités et Loisirs
+- ⚽ **Football**
+- 📚 **La lecture**
+- 🏀 **Basketball**
+
+---
+
+## 🚀 Navigation & Structure
 
 1. **Introduction / Qui je suis ? (`#introduction`)**
-   - En-tête moderne avec effet machine à écrire (Typing effect) dynamique.
-   - Carte de profil avec photo, effets d'orbes lumineuses et badges technologiques flottants.
-   - Présentation de la vision d'ingénieur, atouts clés et statistiques d'impact.
-
+   - Animation typing avec les spécialités en génie logiciel
+   - Carte de profil avec photo et badges (Python, SQL Server, C, HTML5, Bootstrap)
+   - Extrait fidèle du profil du CV et section détaillée des activités et loisirs
 2. **CV & Compétences / Ce que je sais faire (`#cv`)**
-   - Jauges de maîtrise par domaine (Cloud & DevOps, Frontend, Backend, Outils & Méthodes).
-   - Frise chronologique interactive (Parcours académique & certifications).
-   - Bouton de téléchargement direct du curriculum vitae.
-
+   - Jauges de compétences interactives par catégorie
+   - Parcours académique à l'IIT
+   - Expériences et réalisations logicielles
 3. **Projets / Ce que j'ai fait (`#projets`)**
-   - Galerie de projets avec filtres interactifs (Tous, Cloud, Web, Full-Stack).
-   - Cartes projets en glassmorphism avec badges et tags technologiques.
-   - Fenêtre modale de détails affichant le descriptif complet, les points forts et les liens code/démo.
-
+   - 6 projets concrets (Flask & Pandas, SQL Server T-SQL, Langage C Système, Portfolio, Application Académique IIT, Scripts Analytiques)
+   - Filtres interactifs par catégorie technologique
+   - Fenêtre modale avec détails complets et points clés
 4. **Contact / Me contacter (`#contact`)**
-   - Coordonnées de contact (Email, Téléphone, Localisation, Disponibilité).
-   - Liens directs vers les réseaux professionnels (GitHub, LinkedIn, Twitter).
-   - Formulaire de message interactif avec validation visuelle et accusé de réception en temps réel.
-
+   - Coordonnées directes (Téléphone +225 05 76 55 59 62, Email, Localisation à Grand-Bassam)
+   - Formulaire de message interactif
 5. **Pied de page (Footer)**
-   - Raccourcis de navigation instantanée.
-   - Bouton flottant de retour en haut de page (*Back to top*).
-   - Mentions légales et copyright dynamique.
+   - Copyright dynamique, mentions de l'IIT et bouton retour en haut
 
 ---
 
-## 🛠️ Stack Technologique
+## 📦 Installation et Exécution
 
-- **Framework :** React 19 (Hooks, Context, composabilité modulaire)
-- **Outil de build :** Vite (HMR ultra-rapide, compilation optimisée)
-- **Styling :** CSS3 Moderne (Glassmorphism, variables CSS, animations fluides), Bootstrap 5 & React-Bootstrap
-- **Iconographie :** FontAwesome 6 & React Icons
-- **Qualité de code :** Oxlint (zéro warning, conformité React Compiler et bonnes pratiques)
-
----
-
-## 📦 Installation et Lancement
-
-### 1. Prérequis
-- [Node.js](https://nodejs.org/) (version 18 ou supérieure recommandée)
-- `npm` ou `pnpm`
-
-### 2. Cloner et installer les dépendances
 ```bash
-# Se placer dans le répertoire du projet
-cd portfolio
-
-# Installer les dépendances
+# Installation des dépendances
 npm install
-```
 
-### 3. Démarrer le serveur de développement
-```bash
+# Démarrer en développement
 npm run dev
-```
-L'application sera accessible sur `http://localhost:5173`.
 
-### 4. Construire pour la production
-```bash
+# Compiler pour la production
 npm run build
-```
-Les fichiers optimisés et prêts pour le déploiement seront générés dans le dossier `dist/`.
 
-### 5. Vérifier la qualité du code (Linting)
-```bash
+# Linter le code
 npm run lint
 ```
-
----
-
-## 📄 Licence & Droits d'auteur
-
-&copy; EHOUSSOU Boman-N'gouan Oint Phanuel. Tous droits réservés.
-Projet académique réalisé pour l'IIT.

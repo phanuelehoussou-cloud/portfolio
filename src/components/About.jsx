@@ -24,34 +24,54 @@ const About = () => {
   }, []);
 
   const personalDetails = [
-    { label: 'Nom complet', value: "EHOUSSOU Boman-N'gouan Oint Phanuel", icon: 'fa-user-check' },
-    { label: 'Statut actuel', value: "Étudiant à l'Institut International de Technologie (IIT)", icon: 'fa-university' },
-    { label: 'Spécialité', value: 'Génie Logiciel & Cloud Computing', icon: 'fa-cloud' },
-    { label: 'Localisation', value: 'Abidjan, Côte d\'Ivoire', icon: 'fa-map-pin' },
-    { label: 'Disponibilité', value: 'Stages, Projets & Collaborations tech', icon: 'fa-calendar-check' },
-    { label: 'Langues', value: 'Français (courant), Anglais (technique)', icon: 'fa-globe-africa' },
+    { label: 'Nom complet', value: "EHOUSSOUS Boman-N'gouan Oint Phanuel", icon: 'fa-user-check' },
+    { label: 'Statut actuel', value: "Étudiant en Génie Logiciel (depuis 1 an)", icon: 'fa-university' },
+    { label: 'Établissement', value: 'Institut International de Technologie (IIT)', icon: 'fa-graduation-cap' },
+    { label: 'Localisation', value: 'Grand-Bassam, Côte d\'Ivoire', icon: 'fa-map-pin' },
+    { label: 'Téléphone', value: '+225 05 76 55 59 62', icon: 'fa-phone' },
+    { label: 'Adresse Email', value: 'phanuelehoussou@gmail.com', icon: 'fa-envelope' },
+    { label: 'Langues', value: 'Français (courant), Anglais (conversationnel courant)', icon: 'fa-globe-africa' },
+    { label: 'Environnement', value: 'Collaboration multiculturelle & Travail d\'équipe', icon: 'fa-users' },
   ];
 
   const highlights = [
     {
       icon: 'fa-brain',
-      title: 'Esprit d\'analyse',
-      desc: 'Capacité à décomposer des problèmes complexes pour en faire des architectures logiques et évolutives.'
+      title: 'Esprit analytique & Rigueur',
+      desc: 'Capacité à décomposer des problèmes complexes pour concevoir des architectures logicielles fiables, maintenables et évolutives.'
     },
     {
-      icon: 'fa-bolt',
-      title: 'Apprentissage rapide',
-      desc: 'Veille technologique active, assimilation agile de nouveaux frameworks et environnements cloud.'
+      icon: 'fa-cubes',
+      title: 'Architectures Logicielles',
+      desc: 'Formation active aux méthodologies modernes, modélisation relationnelle de bases de données et conception d\'applications scalables.'
     },
     {
       icon: 'fa-users',
-      title: 'Travail d\'équipe',
-      desc: 'Communication fluide, collaboration via Git/GitHub et sens du partage des bonnes pratiques.'
+      title: 'Collaboration multiculturelle',
+      desc: 'Aptitude reconnue au travail en équipe, communication fluide et intégration harmonieuse au sein d\'environnements variés.'
     },
     {
-      icon: 'fa-shield-halved',
-      title: 'Rigueur & Fiabilité',
-      desc: 'Code structuré, respect des conventions, modularité et souci des performances applicatives.'
+      icon: 'fa-language',
+      title: 'Anglais conversationnel',
+      desc: 'Niveau conversationnel courant permettant de collaborer, lire et rédiger aisément de la documentation technique en langue anglaise.'
+    }
+  ];
+
+  const hobbies = [
+    {
+      icon: 'fa-futbol',
+      title: 'Football',
+      desc: 'Esprit d\'équipe, sens tactique, solidarité sur le terrain et persévérance dans l\'effort collectif.'
+    },
+    {
+      icon: 'fa-book-open-reader',
+      title: 'La lecture',
+      desc: 'Curiosité intellectuelle constante, ouverture d\'esprit et soif continue d\'enrichir mes connaissances.'
+    },
+    {
+      icon: 'fa-basketball',
+      title: 'Basketball',
+      desc: 'Dynamisme, prise de décision rapide sous pression, réactivité et coordination collective.'
     }
   ];
 
@@ -73,7 +93,7 @@ const About = () => {
           </h2>
           <span className="title-line"></span>
           <p className="section-subtitle">
-            Une immersion dans mon univers : mes racines académiques, ma vision d'ingénieur et ce qui forge ma détermination au quotidien.
+            Étudiant passionné par la conception logicielle, doté d'un esprit analytique et déterminé à concevoir des solutions applicatives robustes.
           </p>
         </div>
 
@@ -83,14 +103,14 @@ const About = () => {
               <div className="about-image-card">
                 <img 
                   src={profileImg} 
-                  alt="EHOUSSOU BOMAN-N'GOUAN OINT PHANUEL" 
+                  alt="EHOUSSOUS BOMAN-N'GOUAN OINT PHANUEL" 
                 />
                 <div className="about-image-overlay">
                   <div className="overlay-quote">
                     <i className="fas fa-quote-left"></i>
-                    <p>Bâtir des solutions numériques robustes et centrées sur l'impact humain.</p>
+                    <p>Concevoir des applications robustes et scalables en alliant rigueur théorique et esprit collaboratif.</p>
                   </div>
-                  <span className="badge-identity">Phanuel EHOUSSOU</span>
+                  <span className="badge-identity">Phanuel EHOUSSOUS</span>
                 </div>
               </div>
               <div className="about-shape shape-1"></div>
@@ -101,16 +121,14 @@ const About = () => {
           <div className="col-lg-7">
             <div className="about-content">
               <h3 className="about-heading fade-in-right">
-                Développeur tourné vers l'avenir, guidé par la <span className="gradient-text">passion de créer</span>
+                Étudiant en Génie Logiciel, <span className="gradient-text">bâtisseur d'applications fiables</span>
               </h3>
 
-              <p className="about-text fade-in-right">
-                Je m'appelle <strong>EHOUSSOU BOMAN-N'GOUAN OINT PHANUEL</strong>. Formé à l'Institut International de Technologie (IIT), j'ai développé une solide culture informatique associant les bases fondamentales de l'algorithmique et du génie logiciel aux paradigmes modernes du <strong>Cloud Computing</strong> et du <strong>Développement Web réactif</strong>.
-              </p>
-
-              <p className="about-text fade-in-right">
-                Mon approche repose sur une conviction : une solution technique ne doit pas seulement fonctionner, elle doit être élégante, intuitive et évolutive. C'est pourquoi j'accorde une importance majeure à la propreté du code (clean code), à l'ergonomie (UI/UX) et aux architectures cloud automatisées.
-              </p>
+              <div className="cv-quote-box glass-card p-3 mb-3 fade-in-right" style={{ borderLeft: '4px solid var(--accent)', background: 'rgba(108, 99, 255, 0.08)' }}>
+                <p className="mb-0" style={{ fontStyle: 'italic', color: '#cbd5e1', lineHeight: '1.7' }}>
+                  « Étudiant en Génie Logiciel depuis un an, je me forme activement aux méthodologies de développement, aux architectures logicielles et aux bonnes pratiques de l'industrie. Passionné par la conception d'applications robustes et scalables, je cherche à mettre à profit mes connaissances théoriques dans un environnement professionnel stimulant. Rigoureux et doté d'un esprit analytique, je suis déterminé à contribuer à des projets innovants tout en continuant à développer mes compétences techniques et collaboratives. »
+                </p>
+              </div>
 
               <div className="about-info-grid fade-in-up">
                 {personalDetails.map((item, index) => (
@@ -132,14 +150,14 @@ const About = () => {
                   onClick={() => scrollTo('cv')}
                 >
                   <i className="fas fa-arrow-down"></i>
-                  <span>Découvrir ce que je sais faire (CV)</span>
+                  <span>Consulter mes compétences (CV)</span>
                 </button>
                 <button 
                   className="btn-outline-custom"
                   onClick={() => scrollTo('contact')}
                 >
                   <i className="fas fa-comment-dots"></i>
-                  <span>Échanger avec moi</span>
+                  <span>Me contacter</span>
                 </button>
               </div>
             </div>
@@ -160,6 +178,30 @@ const About = () => {
             </div>
           ))}
         </div>
+
+        {/* Section Activités et Loisirs extraite du CV */}
+        <div className="mt-5 fade-in-up">
+          <div className="d-flex align-items-center gap-2 mb-4 justify-content-center">
+            <div className="section-badge-pill mb-0">
+              <i className="fas fa-heart"></i>
+              <span>Activités et Loisirs</span>
+            </div>
+          </div>
+          <div className="row g-4 justify-content-center">
+            {hobbies.map((hobby, idx) => (
+              <div key={idx} className="col-md-4">
+                <div className="highlight-card glass-card text-center h-100">
+                  <div className="highlight-icon-wrap mx-auto">
+                    <i className={`fas ${hobby.icon}`}></i>
+                  </div>
+                  <h4 className="highlight-title">{hobby.title}</h4>
+                  <p className="highlight-desc">{hobby.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
       </div>
     </div>
   );

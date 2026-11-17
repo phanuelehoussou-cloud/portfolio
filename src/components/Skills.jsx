@@ -25,97 +25,91 @@ const Skills = () => {
 
   const skillCategories = [
     {
-      category: 'Cloud Computing & DevOps',
-      icon: 'fa-cloud',
+      category: 'Langages de programmation',
+      icon: 'fa-code',
       skills: [
-        { name: 'Amazon Web Services (AWS)', level: 80, desc: 'EC2, S3, IAM, Lambda, VPC basics' },
-        { name: 'Google Cloud Platform (GCP)', level: 75, desc: 'Cloud Run, Compute Engine, Storage' },
-        { name: 'Docker & Conteneurisation', level: 82, desc: 'Dockerfile, Compose, Microservices' },
-        { name: 'CI/CD & Git/GitHub Actions', level: 85, desc: 'Pipelines d\'automatisation, workflow Git' },
-        { name: 'Linux & Administration Système', level: 80, desc: 'Bash scripting, SSH, serveurs Ubuntu/Debian' },
+        { name: 'Python (Pandas, NumPy, Flask)', level: 88, desc: 'Manipulation de données, scripts & développement backend' },
+        { name: 'HTML5 / CSS3', level: 92, desc: 'Structure sémantique, responsive design, animations et mise en page' },
+        { name: 'C (programmation système)', level: 80, desc: 'Algorithmique, gestion dynamique de la mémoire et pointeurs' },
       ]
     },
     {
-      category: 'Développement Frontend',
-      icon: 'fa-laptop-code',
+      category: 'Frameworks et bibliothèques',
+      icon: 'fa-layer-group',
       skills: [
-        { name: 'React.js', level: 88, desc: 'Hooks, Context API, composants modulaires' },
-        { name: 'JavaScript moderne (ES6+)', level: 85, desc: 'Asynchrone, DOM, architecture modulaire' },
-        { name: 'HTML5 & CSS3 sémantiques', level: 92, desc: 'Flexbox, CSS Grid, animations fluides' },
-        { name: 'Bootstrap 5 & Frameworks CSS', level: 90, desc: 'Responsive design, composants UI prêts' },
-        { name: 'UI/UX Design & Ergonomie', level: 80, desc: 'Wireframing, prototypes Figma, accessibilité' },
+        { name: 'Bootstrap 5', level: 92, desc: 'Conception d\'interfaces modernes, grilles responsives & composants UI' },
+        { name: 'Flask (développement web)', level: 86, desc: 'Routage backend, intégration de templates & création d\'APIs' },
+        { name: 'React.js & JavaScript ES6+', level: 84, desc: 'Composants dynamiques, architecture par état & interactions réactives' },
       ]
     },
     {
-      category: 'Développement Backend & Bases de données',
-      icon: 'fa-server',
+      category: 'Bases de données',
+      icon: 'fa-database',
       skills: [
-        { name: 'Node.js & Express', level: 80, desc: 'APIs RESTful, middleware, authentification' },
-        { name: 'Python', level: 78, desc: 'Scripts d\'automatisation, Django/Flask' },
-        { name: 'SQL & Bases relationnelles (MySQL / PostgreSQL)', level: 82, desc: 'Modélisation, requêtes complexes' },
-        { name: 'NoSQL (MongoDB / Firebase)', level: 75, desc: 'Documents JSON, temps réel, indexation' },
-        { name: 'Sécurité & Bonnes pratiques API', level: 78, desc: 'CORS, JWT, chiffrement, sanitization' },
+        { name: 'SQL Server (T-SQL, requêtes complexes)', level: 88, desc: 'Jointures multidimensionnelles, agrégations, indexation' },
+        { name: 'Conception de schémas relationnels', level: 90, desc: 'Normalisation (3NF), clés primaires/étrangères, intégrité référentielle' },
+        { name: 'Gestion & Administration des données', level: 82, desc: 'Procédures stockées, vues et sécurisation des accès' },
       ]
     },
     {
-      category: 'Outils & Méthodologies',
-      icon: 'fa-screwdriver-wrench',
+      category: 'Compétences transversales & Méthodes',
+      icon: 'fa-users-gear',
       skills: [
-        { name: 'Git & Versioning collaboratif', level: 90, desc: 'Branching, PRs, résolutions de conflits' },
-        { name: 'Méthodes Agiles / Scrum', level: 85, desc: 'Sprints, daily standups, backlog management' },
-        { name: 'VS Code, Postman & CLI', level: 92, desc: 'Débogage, tests d\'API REST, terminal' },
-        { name: 'Vite & Bundlers modernes', level: 88, desc: 'Optimisation de builds, hot reload' },
+        { name: 'Anglais (niveau conversationnel courant)', level: 90, desc: 'Communication orale et écrite, documentation technique' },
+        { name: 'Travail d\'équipe & collaboration multiculturelle', level: 94, desc: 'Synergie, écoute active, communication interculturelle' },
+        { name: 'Méthodologies & Architectures logicielles', level: 86, desc: 'Bonnes pratiques de l\'industrie, modularité et code propre' },
+        { name: 'Esprit analytique & Rigueur', level: 92, desc: 'Résolution méthodique de problèmes et respect des exigences' },
       ]
     }
   ];
 
   const educationTimeline = [
     {
-      period: '2023 - Présent',
-      title: 'Diplôme d\'Ingénieur / Licence en Informatique',
+      period: 'Depuis 1 an (En cours)',
+      title: 'Étudiant en Génie Logiciel',
       institution: 'Institut International de Technologie (IIT)',
-      location: 'Côte d\'Ivoire',
-      desc: 'Formation approfondie axée sur le Cloud Computing, le génie logiciel, les systèmes distribués, les réseaux et la sécurité applicative.',
-      badges: ['Cloud Architecture', 'Génie Logiciel', 'DevOps', 'Bases de données']
+      location: 'Grand-Bassam, Côte d\'Ivoire',
+      desc: 'Formation approfondie aux méthodologies de développement, à l\'architecture logicielle, à la modélisation de bases de données relationnelles et aux technologies web modernes.',
+      badges: ['Génie Logiciel', 'Architectures Logicielles', 'SQL Server', 'Python', 'C Systèmes']
     },
     {
       period: 'Formation Continue',
-      title: 'Spécialisations Certifiantes Cloud & Web',
-      institution: 'Auto-formation & Plateformes professionnelles',
-      location: 'En ligne',
-      desc: 'Apprentissage continu sur AWS Cloud Practitioner, architectures React avancées, conteneurisation Docker et automatisation CI/CD.',
-      badges: ['AWS', 'Docker', 'React Ecosystem', 'Microservices']
+      title: 'Perfectionnement continu en Développement & Données',
+      institution: 'Projets d\'application & Auto-formation pratique',
+      location: 'Grand-Bassam / En ligne',
+      desc: 'Approfondissement des frameworks web (Flask, Bootstrap 5), manipulation avancée de données sous Python (Pandas, NumPy) et programmation système en C.',
+      badges: ['Flask', 'Pandas & NumPy', 'T-SQL', 'Bootstrap 5', 'Git']
     },
     {
       period: 'Parcours Préparatoire',
       title: 'Baccalauréat Scientifique',
-      institution: 'Lycée Scientifique',
+      institution: 'Enseignement Secondaire Scientifique',
       location: 'Côte d\'Ivoire',
-      desc: 'Excellence en mathématiques, algorithmique, logique formelle et physique, constituant le socle de mes compétences analytiques.',
-      badges: ['Mathématiques', 'Logique', 'Sciences Appliquées']
+      desc: 'Socle scientifique rigoureux en mathématiques, logique formelle et résolution de problèmes quantitatifs.',
+      badges: ['Mathématiques', 'Logique Formelle', 'Sciences']
     }
   ];
 
   const experiences = [
     {
-      role: 'Développeur Full-Stack & Cloud (Projets & Freelance)',
-      company: 'Projets Académiques & Indépendants',
-      period: '2023 - Présent',
+      role: 'Conception d\'Applications & Projets de Génie Logiciel',
+      company: 'Institut International de Technologie (IIT) & Projets Personnels',
+      period: 'Depuis 1 an',
       tasks: [
-        'Conception et déploiement d\'applications web dynamiques sous React.js et Node.js.',
-        'Hébergement et configuration d\'infrastructures cloud avec conteneurs Docker.',
-        'Intégration d\'APIs RESTful avec gestion de flux asynchrones et interfaces réactives.',
-        'Mise en place de dépôts GitHub collaboratifs avec convention de commit stricte.'
+        'Développement d\'applications web avec Python (Flask) et interfaces réactives sous Bootstrap 5.',
+        'Conception de schémas relationnels de bases de données et écriture de requêtes T-SQL complexes sous SQL Server.',
+        'Développement de programmes système et d\'algorithmes d\'optimisation en langage C.',
+        'Collaboration efficace en environnement d\'équipe multiculturel et documentation technique en anglais.'
       ]
     },
     {
-      role: 'Responsable Technique & Collaborateur Étudiant',
-      company: 'IIT Informatique Workgroup',
-      period: '2024 - Présent',
+      role: 'Activités & Travail Collaboratif',
+      company: 'Groupes d\'Étude & Projets Académiques IIT',
+      period: '2023 - Présent',
       tasks: [
-        'Accompagnement de pairs dans la prise en main de Git, HTML/CSS et JavaScript.',
-        'Organisation d\'ateliers de codage et résolution d\'exercices d\'algorithmique.',
-        'Participation active aux hackathons et projets de synthèse académiques.'
+        'Participation active aux ateliers de modélisation logicielle et revues de code entre pairs.',
+        'Pratique d\'activités collectives développant la cohésion : Football, Basketball et veille par la lecture.',
+        'Partage de bonnes pratiques de programmation et respect des normes de qualité logicielle.'
       ]
     }
   ];
@@ -133,7 +127,7 @@ const Skills = () => {
           </h2>
           <span className="title-line"></span>
           <p className="section-subtitle">
-            Un aperçu exhaustif de mes compétences techniques, de mon parcours académique et de mes réalisations professionnelles.
+            Compétences techniques extraites de mon cursus en Génie Logiciel : langages, bases de données, frameworks et aptitudes transversales.
           </p>
         </div>
 
@@ -158,7 +152,7 @@ const Skills = () => {
             onClick={() => setActiveTab('experience')}
           >
             <i className="fas fa-briefcase"></i>
-            <span>Expériences & Activités</span>
+            <span>Expériences & Projets</span>
           </button>
         </div>
 
@@ -274,9 +268,9 @@ const Skills = () => {
                   <i className="fas fa-file-pdf"></i>
                 </div>
                 <div>
-                  <h4 className="cv-box-title">Curriculum Vitae de Phanuel EHOUSSOU</h4>
+                  <h4 className="cv-box-title">Curriculum Vitae • EHOUSSOUS Phanuel</h4>
                   <p className="cv-box-desc">
-                    Retrouvez l'intégralité de mon parcours, de mes diplômes et de mes compétences dans un document PDF synthétique et actualisé.
+                    Étudiant en Génie Logiciel à l'IIT (Grand-Bassam, Côte d'Ivoire). Consultez le détail complet de mes compétences et réalisations.
                   </p>
                 </div>
               </div>
@@ -290,8 +284,8 @@ const Skills = () => {
                   document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
                 }}
               >
-                <i className="fas fa-download"></i>
-                <span>Demander le CV complet</span>
+                <i className="fas fa-envelope"></i>
+                <span>Me contacter / Demander le CV</span>
               </a>
             </div>
           </div>

@@ -18,10 +18,10 @@ const Footer = () => {
                 <span className="logo-bracket">&lt;</span>
                 <span className="logo-text">PE</span>
                 <span className="logo-bracket">/&gt;</span>
-                <span className="footer-name">EHOUSSOU Phanuel</span>
+                <span className="footer-name">EHOUSSOUS Phanuel</span>
               </div>
               <p className="footer-tagline">
-                Développeur Cloud & Web Full-Stack formé à l'IIT. Bâtir l'avenir numérique avec passion, performance et élégance.
+                Étudiant en Génie Logiciel à l'Institut International de Technologie (IIT) • Grand-Bassam, Côte d'Ivoire. Passionné par la conception d'applications robustes et scalables.
               </p>
             </div>
 
@@ -49,7 +49,7 @@ const Footer = () => {
 
         <div className="footer-bottom py-3 border-top border-secondary border-opacity-25 text-center">
           <p className="copyright-text mb-0">
-            &copy; {CURRENT_YEAR} <strong>EHOUSSOU BOMAN-N'GOUAN OINT PHANUEL</strong>. Tous droits réservés.
+            &copy; {CURRENT_YEAR} <strong>EHOUSSOUS BOMAN-N'GOUAN OINT PHANUEL</strong>. Tous droits réservés.
             <span className="tech-badge-footer ms-2">Conçu avec React, Vite, Bootstrap & CSS3</span>
           </p>
         </div>

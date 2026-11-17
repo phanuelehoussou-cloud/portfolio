@@ -27,110 +27,110 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Cloud Infrastructure & Microservices Orchestration',
-      category: 'cloud',
-      tag: 'Cloud & DevOps',
-      imageIcon: 'fa-cloud-meatball',
-      gradient: 'linear-gradient(135deg, #6c63ff 0%, #3b82f6 100%)',
-      summary: 'Architecture cloud scalable déployée sur AWS avec conteneurisation Docker, passerelle API et supervision.',
-      description: 'Conception d\'une infrastructure cloud haute disponibilité déployée sur AWS. Découpage en microservices conteneurisés avec Docker, automatisation du déploiement via GitHub Actions CI/CD et surveillance des métriques en temps réel.',
-      technologies: ['AWS EC2/S3', 'Docker', 'GitHub Actions', 'Nginx', 'Prometheus'],
+      title: 'Application Web Flask & Analyse de Données',
+      category: 'python',
+      tag: 'Python & Flask',
+      imageIcon: 'fa-pepper-hot',
+      gradient: 'linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%)',
+      summary: 'Plateforme web interactive développée avec Flask, intégrant Pandas et NumPy pour le traitement analytique de données.',
+      description: 'Conception d\'une application web complète avec le micro-framework Flask. Intègre des modules Python utilisant Pandas et NumPy pour ingérer, nettoyer et analyser des séries statistiques avec restitution visuelle sous Bootstrap 5.',
+      technologies: ['Python', 'Flask', 'Pandas', 'NumPy', 'Bootstrap 5', 'HTML5/CSS3'],
       github: 'https://github.com/phanuelehoussou-cloud',
       demo: '#',
       highlights: [
-        'Déploiement automatisé sans interruption de service (Zero-downtime)',
-        'Isolation sécurisée des environnements via VPC et Security Groups',
-        'Réduction de 40% du temps de build grâce au cache Docker multi-stage'
+        'Architecture backend modulaire avec routage dynamique Flask',
+        'Agrégations et analyses statistiques rapides avec Pandas & NumPy',
+        'Interface utilisateur épurée et entièrement responsive avec Bootstrap 5'
       ]
     },
     {
       id: 2,
-      title: 'Portfolio Interactif & Dynamique React.js',
-      category: 'web',
-      tag: 'React & Frontend',
-      imageIcon: 'fa-gem',
-      gradient: 'linear-gradient(135deg, #00d4aa 0%, #6c63ff 100%)',
-      summary: 'Application web monopage réactive développée avec React 19, Bootstrap 5 et navigation par ancres animées.',
-      description: 'Création d\'un portfolio dynamique haut de gamme mettant en valeur les compétences et projets de EHOUSSOU Boman-N\'gouan Oint Phanuel. Intègre un design moderne (glassmorphism), des animations fluides et une adaptabilité mobile totale.',
-      technologies: ['React 19', 'Vite', 'Bootstrap 5', 'CSS Grid', 'Font Awesome'],
-      github: 'https://github.com/phanuelehoussou-cloud/portfolio.git',
+      title: 'Conception de Base de Données & Requêtes Complexes T-SQL',
+      category: 'sql',
+      tag: 'SQL Server & T-SQL',
+      imageIcon: 'fa-database',
+      gradient: 'linear-gradient(135deg, #00d4aa 0%, #0d9488 100%)',
+      summary: 'Modélisation relationnelle rigoureuse et écriture de requêtes complexes sous Microsoft SQL Server.',
+      description: 'Élaboration de schémas relationnels normalisés (3NF) pour un système d\'information complexe. Écriture de requêtes T-SQL avancées (jointures multiples, sous-requêtes, fenêtrage, vues et procédures stockées).',
+      technologies: ['SQL Server', 'T-SQL', 'Schémas relationnels', 'Normalisation 3NF', 'Procédures stockées'],
+      github: 'https://github.com/phanuelehoussou-cloud',
       demo: '#',
       highlights: [
-        'Single Page Application (SPA) dynamique avec défilement fluide',
-        'Navbar interactive synchronisée en temps réel avec la position de défilement',
-        'Performance Lighthouse 95+ grâce à l\'optimisation Vite'
+        'Modélisation entité-association respectant scrupuleusement l\'intégrité référentielle',
+        'Optimisation du temps d\'exécution des requêtes grâce à une indexation ciblée',
+        'Création de procédures stockées sécurisées pour les opérations critiques'
       ]
     },
     {
       id: 3,
-      title: 'Plateforme E-Commerce Full-Stack & API REST',
-      category: 'fullstack',
-      tag: 'Full-Stack',
-      imageIcon: 'fa-bag-shopping',
-      gradient: 'linear-gradient(135deg, #f59e0b 0%, #ef4444 100%)',
-      summary: 'Système complet de commerce électronique avec panier temps réel, gestion des stocks et paiement sécurisé.',
-      description: 'Développement d\'une plateforme web complète intégrant une interface utilisateur dynamique sous React et un backend Node.js/Express. Gestion sécurisée de l\'authentification JWT, des sessions utilisateurs et du catalogue produits.',
-      technologies: ['React.js', 'Node.js', 'Express', 'MongoDB', 'Stripe API'],
+      title: 'Module de Programmation Système & Algorithmes en Langage C',
+      category: 'system',
+      tag: 'Langage C & Système',
+      imageIcon: 'fa-microchip',
+      gradient: 'linear-gradient(135deg, #6c63ff 0%, #8b5cf6 100%)',
+      summary: 'Implémentation d\'algorithmes fondamentaux et gestion dynamique de mémoire en langage C.',
+      description: 'Développement d\'un ensemble d\'outils système et de structures de données dynamiques (listes simplement et doublement chaînées, piles, files) en langage C avec gestion rigoureuse des pointeurs et absence de fuites de mémoire (valgrind compliant).',
+      technologies: ['Langage C', 'Programmation système', 'Pointeurs', 'Gestion mémoire (malloc/free)', 'Algorithmique'],
       github: 'https://github.com/phanuelehoussou-cloud',
       demo: '#',
       highlights: [
-        'Authentification par JSON Web Token (JWT) et hachage bcrypt',
-        'Gestion d\'état centralisée avec Context API et hooks personnalisés',
-        'Base de données NoSQL optimisée avec indexation performante'
+        'Maîtrise approfondie de l\'allocation dynamique et des arithmétiques de pointeurs',
+        'Implémentation robuste de structures de données linéaires et arborescentes',
+        'Optimisation des performances d\'exécution et de l\'empreinte mémoire'
       ]
     },
     {
       id: 4,
-      title: 'Système de Surveillance & Automatisation DevOps',
-      category: 'cloud',
-      tag: 'DevOps & Bash',
-      imageIcon: 'fa-terminal',
-      gradient: 'linear-gradient(135deg, #10b981 0%, #3b82f6 100%)',
-      summary: 'Suite de scripts d\'automatisation Bash et Python pour la maintenance des serveurs Linux et la sauvegarde automatique.',
-      description: 'Mise en place d\'une suite d\'outils d\'automatisation système : surveillance de l\'espace disque, de la mémoire RAM et des processus critiques, génération d\'alertes automatiques par e-mail et synchronisation cloud des sauvegardes vers AWS S3.',
-      technologies: ['Bash', 'Python', 'Linux Ubuntu', 'Cron jobs', 'AWS CLI'],
-      github: 'https://github.com/phanuelehoussou-cloud',
+      title: 'Portfolio Professionnel Réactif & Moderne',
+      category: 'web',
+      tag: 'Web & Bootstrap 5',
+      imageIcon: 'fa-gem',
+      gradient: 'linear-gradient(135deg, #f59e0b 0%, #ea580c 100%)',
+      summary: 'Application web monopage réactive mettant en valeur les compétences et le CV d\'EHOUSSOUS Phanuel.',
+      description: 'Création d\'un portfolio interactif responsive avec une esthétique moderne (dark theme, glassmorphism). Intègre des composants dynamiques, des ancres de défilement fluide et une conformité rigoureuse aux standards du web.',
+      technologies: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript', 'React 19'],
+      github: 'https://github.com/phanuelehoussou-cloud/portfolio.git',
       demo: '#',
       highlights: [
-        'Automatisation complète des sauvegardes nocturnes vers le stockage cloud',
-        'Détection proactive des anomalies système et notification instantanée',
-        'Gain de temps estimé à 5 heures par semaine sur la maintenance serveurs'
+        'Single Page Application (SPA) ergonomique avec défilement fluide',
+        'Intégration fidèle des compétences du CV (Python, Flask, C, SQL Server, Bootstrap)',
+        'Navigation responsive fluide avec barre d\'ancres interactives'
       ]
     },
     {
       id: 5,
       title: 'Application Web de Gestion Académique (IIT)',
-      category: 'fullstack',
-      tag: 'Full-Stack & SQL',
+      category: 'python',
+      tag: 'Flask & SQL',
       imageIcon: 'fa-graduation-cap',
-      gradient: 'linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%)',
-      summary: 'Application web de gestion des notes, des plannings et du suivi pédagogique des étudiants de l\'IIT.',
-      description: 'Projet d\'équipe réalisé dans le cadre du cursus à l\'IIT. Conception du schéma relationnel de la base de données, implémentation des vues SQL et réalisation du panneau d\'administration pour les enseignants et les étudiants.',
-      technologies: ['PHP / Node.js', 'MySQL', 'Bootstrap 5', 'JavaScript', 'Git'],
+      gradient: 'linear-gradient(135deg, #ec4899 0%, #be185d 100%)',
+      summary: 'Système web de gestion pédagogique et des évaluations pour les étudiants de l\'IIT.',
+      description: 'Projet collaboratif réalisé dans le cadre de la formation en Génie Logiciel à l\'IIT. Permet la gestion des inscriptions, l\'enregistrement des notes et le calcul automatique des moyennes avec stockage en base de données relationnelle.',
+      technologies: ['Python', 'Flask', 'SQL Server', 'Bootstrap 5', 'Jinja2'],
       github: 'https://github.com/phanuelehoussou-cloud',
       demo: '#',
       highlights: [
-        'Modélisation entité-association avec respect de la 3ème forme normale (3NF)',
-        'Gestion des droits d\'accès selon les rôles (Admin, Professeur, Étudiant)',
-        'Génération automatique de relevés de notes au format PDF'
+        'Authentification sécurisée et séparation des rôles (enseignant / étudiant)',
+        'Calcul automatisé des moyennes et des rangs avec gestion des coefficients',
+        'Interface épurée et ergonomique facilitant la saisie rapide des notes'
       ]
     },
     {
       id: 6,
-      title: 'Dashboard Analytique & Visualisation de Données',
-      category: 'web',
-      tag: 'Frontend & Data',
-      imageIcon: 'fa-chart-pie',
-      gradient: 'linear-gradient(135deg, #06b6d4 0%, #6366f1 100%)',
-      summary: 'Tableau de bord interactif affichant des métriques en temps réel avec graphiques interactifs et filtres multidimensionnels.',
-      description: 'Interface web moderne permettant d\'explorer des flux de données en direct : consommation réseau, requêtes serveur et indicateurs de performance. Offre des graphiques personnalisables et une navigation fluide.',
-      technologies: ['React.js', 'Chart.js', 'Bootstrap Grid', 'CSS Modules'],
+      title: 'Traitement de Données & Scripts Analytiques',
+      category: 'python',
+      tag: 'Python & Data',
+      imageIcon: 'fa-chart-simple',
+      gradient: 'linear-gradient(135deg, #06b6d4 0%, #0284c7 100%)',
+      summary: 'Suite de scripts Python pour l\'extraction, le nettoyage et la modélisation statistique de données.',
+      description: 'Pipeline de traitement de jeux de données volumineux : manipulation de DataFrames avec Pandas, calculs vectorisés avec NumPy et génération automatique de rapports synthétiques.',
+      technologies: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Data Cleaning'],
       github: 'https://github.com/phanuelehoussou-cloud',
       demo: '#',
       highlights: [
-        'Rendu graphique réactif en temps réel avec WebSocket',
-        'Mode sombre / clair dynamique avec mémorisation locale',
-        'Architecture composable hautement réutilisable'
+        'Nettoyage automatisé et gestion des valeurs manquantes dans les jeux de données',
+        'Calculs matriciels vectorisés haute performance avec NumPy',
+        'Génération de visualisations graphiques pertinentes pour l\'aide à la décision'
       ]
     }
   ];
@@ -152,7 +152,7 @@ const Projects = () => {
           </h2>
           <span className="title-line"></span>
           <p className="section-subtitle">
-            Une sélection de réalisations techniques concrètes démontrant mon savoir-faire en Cloud, DevOps et développement web.
+            Une sélection de réalisations techniques concrètes démontrant mon savoir-faire en Python, Flask, SQL Server, langage C et développement web moderne.
           </p>
         </div>
 
@@ -165,22 +165,28 @@ const Projects = () => {
             Tous les projets ({projects.length})
           </button>
           <button 
-            className={`filter-btn ${filter === 'cloud' ? 'active' : ''}`}
-            onClick={() => setFilter('cloud')}
+            className={`filter-btn ${filter === 'python' ? 'active' : ''}`}
+            onClick={() => setFilter('python')}
           >
-            <i className="fas fa-cloud"></i> Cloud & DevOps
+            <i className="fab fa-python"></i> Python & Flask
+          </button>
+          <button 
+            className={`filter-btn ${filter === 'sql' ? 'active' : ''}`}
+            onClick={() => setFilter('sql')}
+          >
+            <i className="fas fa-database"></i> SQL Server
+          </button>
+          <button 
+            className={`filter-btn ${filter === 'system' ? 'active' : ''}`}
+            onClick={() => setFilter('system')}
+          >
+            <i className="fas fa-microchip"></i> Langage C (Système)
           </button>
           <button 
             className={`filter-btn ${filter === 'web' ? 'active' : ''}`}
             onClick={() => setFilter('web')}
           >
-            <i className="fas fa-desktop"></i> Web & React
-          </button>
-          <button 
-            className={`filter-btn ${filter === 'fullstack' ? 'active' : ''}`}
-            onClick={() => setFilter('fullstack')}
-          >
-            <i className="fas fa-database"></i> Full-Stack
+            <i className="fab fa-bootstrap"></i> Web & Bootstrap 5
           </button>
         </div>
 

@@ -3,10 +3,11 @@ import profileImg from '../assets/profile.jpg';
 import './Hero.css';
 
 const TITLES = [
-  'Développeur Cloud & DevOps',
-  'Développeur Web Full-Stack',
-  'Étudiant passionné en Informatique',
-  'Architecte de solutions modernes'
+  'Étudiant en Génie Logiciel',
+  'Développeur Python (Flask, Pandas, NumPy)',
+  'Spécialiste SQL Server & T-SQL',
+  'Programmeur C & Systèmes',
+  'Développeur Web & Bootstrap 5'
 ];
 
 const Hero = () => {
@@ -62,14 +63,14 @@ const Hero = () => {
           <div className="col-lg-7 hero-content">
             <div className="hero-badge">
               <span className="badge-dot"></span>
-              <span className="hero-badge-tag">Introduction</span>
+              <span className="hero-badge-tag">Étudiant en Génie Logiciel</span>
               <span className="badge-separator">•</span>
-              <span className="hero-badge-title">Qui je suis ?</span>
+              <span className="hero-badge-title">Grand-Bassam, Côte d'Ivoire</span>
             </div>
             
             <h1 className="hero-name">
               <span className="greeting">Bonjour & bienvenue, je suis</span>
-              <span className="first-name gradient-text">EHOUSSOU</span>
+              <span className="first-name gradient-text">EHOUSSOUS</span>
               <span className="full-name">Boman-N'gouan Oint Phanuel</span>
             </h1>
 
@@ -80,7 +81,7 @@ const Hero = () => {
             </div>
 
             <p className="hero-description">
-              Passionné par l'architecture des systèmes d'information, le Cloud Computing et le développement d'applications web modernes et performantes. Je combine rigueur d'ingénierie, créativité et maîtrise technique pour donner vie à des solutions numériques d'exception.
+              Étudiant en Génie Logiciel depuis un an, je me forme activement aux méthodologies de développement, aux architectures logicielles et aux bonnes pratiques de l'industrie. Passionné par la conception d'applications robustes et scalables, je mets à profit rigueur d'ingénierie et esprit analytique pour concevoir des solutions performantes.
             </p>
 
             <div className="hero-buttons">
@@ -109,18 +110,18 @@ const Hero = () => {
 
             <div className="hero-stats">
               <div className="stat-item">
+                <span className="stat-number">1 An+</span>
+                <span className="stat-label">Génie Logiciel</span>
+              </div>
+              <div className="stat-divider"></div>
+              <div className="stat-item">
                 <span className="stat-number">IIT</span>
-                <span className="stat-label">École d'Ingénieur</span>
+                <span className="stat-label">Institut Int. de Tech</span>
               </div>
               <div className="stat-divider"></div>
               <div className="stat-item">
-                <span className="stat-number">Cloud</span>
-                <span className="stat-label">Spécialisation</span>
-              </div>
-              <div className="stat-divider"></div>
-              <div className="stat-item">
-                <span className="stat-number">Web & Data</span>
-                <span className="stat-label">Écosystème</span>
+                <span className="stat-number">Python & SQL</span>
+                <span className="stat-label">Développement & Data</span>
               </div>
             </div>
           </div>
@@ -134,23 +135,23 @@ const Hero = () => {
               <div className="profile-image-container">
                 <img 
                   src={profileImg} 
-                  alt="EHOUSSOU BOMAN-N'GOUAN OINT PHANUEL" 
+                  alt="EHOUSSOUS BOMAN-N'GOUAN OINT PHANUEL" 
                   className="profile-image" 
                 />
               </div>
 
-              {/* Floating tech badges */}
-              <div className="floating-badge badge-1" title="React.js">
-                <i className="fab fa-react"></i>
-              </div>
-              <div className="floating-badge badge-2" title="Python">
+              {/* Floating tech badges matching CV */}
+              <div className="floating-badge badge-1" title="Python (Pandas, NumPy, Flask)">
                 <i className="fab fa-python"></i>
               </div>
-              <div className="floating-badge badge-3" title="Cloud AWS / GCP">
-                <i className="fab fa-aws"></i>
+              <div className="floating-badge badge-2" title="SQL Server & T-SQL">
+                <i className="fas fa-database"></i>
               </div>
-              <div className="floating-badge badge-4" title="JavaScript & Node">
-                <i className="fab fa-js-square"></i>
+              <div className="floating-badge badge-3" title="Langage C (Programmation Système)">
+                <i className="fas fa-code"></i>
+              </div>
+              <div className="floating-badge badge-4" title="HTML5 & CSS3">
+                <i className="fab fa-html5"></i>
               </div>
               <div className="floating-badge badge-5" title="Bootstrap 5">
                 <i className="fab fa-bootstrap"></i>

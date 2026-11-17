@@ -60,25 +60,25 @@ const Contact = () => {
     {
       icon: 'fa-phone-volume',
       title: 'Téléphone & WhatsApp',
-      value: '+225 07 00 00 00 00',
-      action: 'tel:+2250700000000',
+      value: '+225 05 76 55 59 62',
+      action: 'tel:+2250576555962',
       btnText: 'Appeler directement',
       color: '#00d4aa'
     },
     {
       icon: 'fa-location-dot',
       title: 'Localisation',
-      value: 'Abidjan, Côte d\'Ivoire',
+      value: 'Grand-Bassam, Côte d\'Ivoire',
       action: '#',
-      btnText: 'Institut Int. de Tech (IIT)',
+      btnText: 'Grand-Bassam & Environs',
       color: '#f59e0b'
     },
     {
-      icon: 'fa-brands fa-github',
-      title: 'Dépôts GitHub',
-      value: 'phanuelehoussou-cloud',
-      action: 'https://github.com/phanuelehoussou-cloud',
-      btnText: 'Explorer mes repos',
+      icon: 'fa-university',
+      title: 'Formation Académique',
+      value: 'Institut Int. de Tech (IIT)',
+      action: '#',
+      btnText: 'Étudiant Génie Logiciel',
       color: '#3b82f6'
     }
   ];
@@ -135,13 +135,13 @@ const Contact = () => {
               <div className="pitch-header">
                 <div className="status-indicator">
                   <span className="status-ping"></span>
-                  <span className="status-text">Disponible pour de nouveaux projets</span>
+                  <span className="status-text">Disponible pour stages & opportunités tech</span>
                 </div>
-                <h3 className="pitch-title">Construisons ensemble quelque chose de grand</h3>
+                <h3 className="pitch-title">Construisons ensemble des applications fiables</h3>
               </div>
 
               <p className="pitch-desc">
-                Que ce soit pour le déploiement d'une infrastructure Cloud robuste, le développement d'une application web React réactive ou une collaboration au sein d'une équipe technique, je suis à votre écoute.
+                Étudiant passionné en Génie Logiciel, je cherche à mettre à profit mes connaissances théoriques (Python, Flask, C, SQL Server, architectures logicielles) au sein d'un environnement stimulant et collaboratif.
               </p>
 
               <div className="pitch-perks">
