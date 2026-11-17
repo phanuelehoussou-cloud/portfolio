@@ -89,7 +89,7 @@ const Contact = () => {
         <div className="title-wrapper fade-in-up">
           <div className="section-badge-pill">
             <i className="fas fa-paper-plane"></i>
-            <span>Partie 4 &bull; Navbar : Contact</span>
+            <span>Partie 4 &bull; : Contact</span>
           </div>
           <h2 className="section-title">
             <span className="gradient-text">Me contacter</span>

@@ -25,7 +25,7 @@ const About = () => {
 
   const personalDetails = [
     { label: 'Nom complet', value: "EHOUSSOUS Boman-N'gouan Oint Phanuel", icon: 'fa-user-check' },
-    { label: 'Statut actuel', value: "Étudiant en Génie Logiciel (depuis 1 an)", icon: 'fa-university' },
+    { label: 'Statut actuel', value: "Étudiant en Génie Logiciel (depuis 2 an)", icon: 'fa-university' },
     { label: 'Établissement', value: 'Institut Ivoirien de Technologie (IIT)', icon: 'fa-graduation-cap' },
     { label: 'Localisation', value: 'Grand-Bassam, Côte d\'Ivoire', icon: 'fa-map-pin' },
     { label: 'Téléphone', value: '+225 05 76 55 59 62', icon: 'fa-phone' },
@@ -86,7 +86,7 @@ const About = () => {
         <div className="title-wrapper fade-in-up">
           <div className="section-badge-pill">
             <i className="fas fa-id-card"></i>
-            <span>Partie 1 &bull; Navbar : Introduction</span>
+            <span>Partie 1 &bull; : Introduction</span>
           </div>
           <h2 className="section-title">
             <span className="gradient-text">Qui je suis ?</span>
@@ -110,7 +110,7 @@ const About = () => {
                     <i className="fas fa-quote-left"></i>
                     <p>Concevoir des applications robustes et scalables en alliant rigueur théorique et esprit collaboratif.</p>
                   </div>
-                  <span className="badge-identity">Phanuel EHOUSSOUS</span>
+                  <span className="badge-identity">Phanuel EHOUSSOU</span>
                 </div>
               </div>
               <div className="about-shape shape-1"></div>
@@ -126,7 +126,7 @@ const About = () => {
 
               <div className="cv-quote-box glass-card p-3 mb-3 fade-in-right" style={{ borderLeft: '4px solid var(--accent)', background: 'rgba(108, 99, 255, 0.08)' }}>
                 <p className="mb-0" style={{ fontStyle: 'italic', color: '#cbd5e1', lineHeight: '1.7' }}>
-                  « Étudiant en Génie Logiciel depuis un an, je me forme activement aux méthodologies de développement, aux architectures logicielles et aux bonnes pratiques de l'industrie. Passionné par la conception d'applications robustes et scalables, je cherche à mettre à profit mes connaissances théoriques dans un environnement professionnel stimulant. Rigoureux et doté d'un esprit analytique, je suis déterminé à contribuer à des projets innovants tout en continuant à développer mes compétences techniques et collaboratives. »
+                  « Étudiant en Génie Logiciel depuis deux ans, je me forme activement aux méthodologies de développement, aux architectures logicielles et aux bonnes pratiques de l'industrie. Passionné par la conception d'applications robustes et scalables, je cherche à mettre à profit mes connaissances théoriques dans un environnement professionnel stimulant. Rigoureux et doté d'un esprit analytique, je suis déterminé à contribuer à des projets innovants tout en continuant à développer mes compétences techniques et collaboratives. »
                 </p>
               </div>
 
