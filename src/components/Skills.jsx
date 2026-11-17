@@ -65,7 +65,7 @@ const Skills = () => {
 
   const educationTimeline = [
     {
-      period: 'Depuis 1 an (En cours)',
+      period: 'Depuis 2 ans (En cours)',
       title: 'Étudiant en Génie Logiciel',
       institution: 'Institut Ivoirien de Technologie (IIT)',
       location: 'Grand-Bassam, Côte d\'Ivoire',
@@ -94,7 +94,7 @@ const Skills = () => {
     {
       role: 'Conception d\'Applications & Projets de Génie Logiciel',
       company: 'Institut Ivoirien de Technologie (IIT) & Projets Personnels',
-      period: 'Depuis 1 an',
+      period: 'Depuis 2 ans',
       tasks: [
         'Développement d\'applications web avec Python (Flask) et interfaces réactives sous Bootstrap 5.',
         'Conception de schémas relationnels de bases de données et écriture de requêtes T-SQL complexes sous SQL Server.',
@@ -120,7 +120,7 @@ const Skills = () => {
         <div className="title-wrapper fade-in-up">
           <div className="section-badge-pill">
             <i className="fas fa-file-alt"></i>
-            <span>Partie 2 &bull; Navbar : CV</span>
+            <span>Partie 2 &bull;: CV</span>
           </div>
           <h2 className="section-title">
             <span className="gradient-text">Ce que je sais faire</span>

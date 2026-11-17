@@ -81,7 +81,7 @@ const Hero = () => {
             </div>
 
             <p className="hero-description">
-              Étudiant en Génie Logiciel depuis un an, je me forme activement aux méthodologies de développement, aux architectures logicielles et aux bonnes pratiques de l'industrie. Passionné par la conception d'applications robustes et scalables, je mets à profit rigueur d'ingénierie et esprit analytique pour concevoir des solutions performantes.
+              Étudiant en Génie Logiciel depuis deux ans, je me forme activement aux méthodologies de développement, aux architectures logicielles et aux bonnes pratiques de l'industrie. Passionné par la conception d'applications robustes et scalables, je mets à profit rigueur d'ingénierie et esprit analytique pour concevoir des solutions performantes.
             </p>
 
             <div className="hero-buttons">
@@ -110,7 +110,7 @@ const Hero = () => {
 
             <div className="hero-stats">
               <div className="stat-item">
-                <span className="stat-number">1 An+</span>
+                <span className="stat-number">2 Ans+</span>
                 <span className="stat-label">Génie Logiciel</span>
               </div>
               <div className="stat-divider"></div>

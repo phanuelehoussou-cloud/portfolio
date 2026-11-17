@@ -145,7 +145,7 @@ const Projects = () => {
         <div className="title-wrapper fade-in-up">
           <div className="section-badge-pill">
             <i className="fas fa-layer-group"></i>
-            <span>Partie 3 &bull; Navbar : Projets</span>
+            <span>Partie 3 &bull; : Projets</span>
           </div>
           <h2 className="section-title">
             <span className="gradient-text">Ce que j'ai fait</span>

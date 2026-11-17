@@ -7,7 +7,7 @@ Ce projet est une application web monopage (SPA) moderne, réactive et performan
 ## 👨‍💻 À propos du Profil
 
 - **Titulaire :** EHOUSSOUS Boman-N'gouan Oint Phanuel
-- **Statut :** Étudiant en Génie Logiciel (depuis 1 an)
+- **Statut :** Étudiant en Génie Logiciel (depuis 2 ans)
 - **Établissement :** Institut Ivoirien de Technologie (IIT)
 - **Localisation :** Grand-Bassam, Côte d'Ivoire
 - **Contact :** phanuelehoussou@gmail.com | +225 05 76 55 59 62
