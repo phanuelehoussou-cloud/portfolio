@@ -1,6 +1,6 @@
 # Portfolio Professionnel - EHOUSSOUS Boman-N'gouan Oint Phanuel
 
-Ce projet est une application web monopage (SPA) moderne, réactive et performante développée avec **React 19**, **Vite** et **Bootstrap 5**, dans le cadre du cursus académique à l'**Institut International de Technologie (IIT)**.
+Ce projet est une application web monopage (SPA) moderne, réactive et performante développée avec **React 19**, **Vite** et **Bootstrap 5**, dans le cadre du cursus académique à l'**Institut Ivoirien de Technologie (IIT)**.
 
 ---
 
@@ -8,7 +8,7 @@ Ce projet est une application web monopage (SPA) moderne, réactive et performan
 
 - **Titulaire :** EHOUSSOUS Boman-N'gouan Oint Phanuel
 - **Statut :** Étudiant en Génie Logiciel (depuis 1 an)
-- **Établissement :** Institut International de Technologie (IIT)
+- **Établissement :** Institut Ivoirien de Technologie (IIT)
 - **Localisation :** Grand-Bassam, Côte d'Ivoire
 - **Contact :** phanuelehoussou@gmail.com | +225 05 76 55 59 62
 

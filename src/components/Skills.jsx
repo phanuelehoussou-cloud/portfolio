@@ -67,7 +67,7 @@ const Skills = () => {
     {
       period: 'Depuis 1 an (En cours)',
       title: 'Étudiant en Génie Logiciel',
-      institution: 'Institut International de Technologie (IIT)',
+      institution: 'Institut Ivoirien de Technologie (IIT)',
       location: 'Grand-Bassam, Côte d\'Ivoire',
       desc: 'Formation approfondie aux méthodologies de développement, à l\'architecture logicielle, à la modélisation de bases de données relationnelles et aux technologies web modernes.',
       badges: ['Génie Logiciel', 'Architectures Logicielles', 'SQL Server', 'Python', 'C Systèmes']
@@ -93,7 +93,7 @@ const Skills = () => {
   const experiences = [
     {
       role: 'Conception d\'Applications & Projets de Génie Logiciel',
-      company: 'Institut International de Technologie (IIT) & Projets Personnels',
+      company: 'Institut Ivoirien de Technologie (IIT) & Projets Personnels',
       period: 'Depuis 1 an',
       tasks: [
         'Développement d\'applications web avec Python (Flask) et interfaces réactives sous Bootstrap 5.',

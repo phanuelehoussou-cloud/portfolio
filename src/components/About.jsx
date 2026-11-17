@@ -26,7 +26,7 @@ const About = () => {
   const personalDetails = [
     { label: 'Nom complet', value: "EHOUSSOUS Boman-N'gouan Oint Phanuel", icon: 'fa-user-check' },
     { label: 'Statut actuel', value: "Étudiant en Génie Logiciel (depuis 1 an)", icon: 'fa-university' },
-    { label: 'Établissement', value: 'Institut International de Technologie (IIT)', icon: 'fa-graduation-cap' },
+    { label: 'Établissement', value: 'Institut Ivoirien de Technologie (IIT)', icon: 'fa-graduation-cap' },
     { label: 'Localisation', value: 'Grand-Bassam, Côte d\'Ivoire', icon: 'fa-map-pin' },
     { label: 'Téléphone', value: '+225 05 76 55 59 62', icon: 'fa-phone' },
     { label: 'Adresse Email', value: 'phanuelehoussou@gmail.com', icon: 'fa-envelope' },

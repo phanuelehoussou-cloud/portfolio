@@ -21,7 +21,7 @@ const Footer = () => {
                 <span className="footer-name">EHOUSSOUS Phanuel</span>
               </div>
               <p className="footer-tagline">
-                Étudiant en Génie Logiciel à l'Institut International de Technologie (IIT) • Grand-Bassam, Côte d'Ivoire. Passionné par la conception d'applications robustes et scalables.
+                Étudiant en Génie Logiciel à l'Institut Ivoirien de Technologie (IIT) • Grand-Bassam, Côte d'Ivoire. Passionné par la conception d'applications robustes et scalables.
               </p>
             </div>
 

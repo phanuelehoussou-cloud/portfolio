@@ -76,7 +76,7 @@ const Contact = () => {
     {
       icon: 'fa-university',
       title: 'Formation Académique',
-      value: 'Institut Int. de Tech (IIT)',
+      value: 'Institut Ivoirien de Tech (IIT)',
       action: '#',
       btnText: 'Étudiant Génie Logiciel',
       color: '#3b82f6'

@@ -116,7 +116,7 @@ const Hero = () => {
               <div className="stat-divider"></div>
               <div className="stat-item">
                 <span className="stat-number">IIT</span>
-                <span className="stat-label">Institut Int. de Tech</span>
+                <span className="stat-label">Institut Ivoirien de Tech</span>
               </div>
               <div className="stat-divider"></div>
               <div className="stat-item">
