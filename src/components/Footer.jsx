@@ -1,12 +1,12 @@
 import './Footer.css';
 
+const CURRENT_YEAR = new Date().getFullYear();
+
 const Footer = () => {
   const scrollTo = (id) => {
     const el = document.getElementById(id);
     if (el) el.scrollIntoView({ behavior: 'smooth' });
   };
-
-  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="footer-custom">
@@ -49,7 +49,7 @@ const Footer = () => {
 
         <div className="footer-bottom py-3 border-top border-secondary border-opacity-25 text-center">
           <p className="copyright-text mb-0">
-            &copy; {currentYear} <strong>EHOUSSOU BOMAN-N'GOUAN OINT PHANUEL</strong>. Tous droits réservés.
+            &copy; {CURRENT_YEAR} <strong>EHOUSSOU BOMAN-N'GOUAN OINT PHANUEL</strong>. Tous droits réservés.
             <span className="tech-badge-footer ms-2">Conçu avec React, Vite, Bootstrap & CSS3</span>
           </p>
         </div>

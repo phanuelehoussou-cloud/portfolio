@@ -2,20 +2,20 @@ import { useState, useEffect } from 'react';
 import profileImg from '../assets/profile.jpg';
 import './Hero.css';
 
+const TITLES = [
+  'Développeur Cloud & DevOps',
+  'Développeur Web Full-Stack',
+  'Étudiant passionné en Informatique',
+  'Architecte de solutions modernes'
+];
+
 const Hero = () => {
   const [displayText, setDisplayText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
 
-  const titles = [
-    'Développeur Cloud & DevOps',
-    'Développeur Web Full-Stack',
-    'Étudiant passionné en Informatique',
-    'Architecte de solutions modernes'
-  ];
-
   useEffect(() => {
-    const currentTitle = titles[currentIndex % titles.length];
+    const currentTitle = TITLES[currentIndex % TITLES.length];
     let timeout;
 
     if (!isDeleting) {
@@ -32,8 +32,10 @@ const Hero = () => {
           setDisplayText(displayText.slice(0, -1));
         }, 35);
       } else {
-        setIsDeleting(false);
-        setCurrentIndex((prev) => prev + 1);
+        timeout = setTimeout(() => {
+          setIsDeleting(false);
+          setCurrentIndex((prev) => (prev + 1) % TITLES.length);
+        }, 200);
       }
     }
 
