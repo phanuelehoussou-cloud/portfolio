@@ -4,7 +4,7 @@ Ce projet est une application web monopage (SPA) moderne, réactive et performan
 
 ---
 
-## 👨‍💻 À propos du Profil
+## A propos du Profil
 
 - **Titulaire :** EHOUSSOUS Boman-N'gouan Oint Phanuel
 - **Statut :** Étudiant en Génie Logiciel (depuis 2 ans)
@@ -14,7 +14,7 @@ Ce projet est une application web monopage (SPA) moderne, réactive et performan
 
 ---
 
-## 🛠️ Compétences Techniques (CV)
+## Competences Techniques (CV)
 
 ### 1. Langages de programmation
 - **Python** (Pandas, NumPy, Flask) : traitement de données, calculs matriciels et développement backend
@@ -37,13 +37,13 @@ Ce projet est une application web monopage (SPA) moderne, réactive et performan
 - **Méthodologies de développement et architectures logicielles**
 
 ### 5. Activités et Loisirs
-- ⚽ **Football**
-- 📚 **La lecture**
-- 🏀 **Basketball**
+- **Football**
+- **La lecture**
+- **Basketball**
 
 ---
 
-## 🚀 Navigation & Structure
+## Navigation & Structure
 
 1. **Introduction / Qui je suis ? (`#introduction`)**
    - Animation typing avec les spécialités en génie logiciel
@@ -65,7 +65,7 @@ Ce projet est une application web monopage (SPA) moderne, réactive et performan
 
 ---
 
-## 📦 Installation et Exécution
+## Installation et Execution
 
 ```bash
 # Installation des dépendances
