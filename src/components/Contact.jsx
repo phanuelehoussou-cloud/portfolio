@@ -174,7 +174,7 @@ const Contact = () => {
                   <a href="https://github.com/phanuelehoussou-cloud" target="_blank" rel="noopener noreferrer" title="GitHub">
                     <i className="fab fa-github"></i>
                   </a>
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                  <a href="https://www.linkedin.com/in/boman-n%E2%80%99gouan-oint-phanuel-ehousssou-414b9a414" target="_blank" rel="noopener noreferrer" title="LinkedIn">
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                   <a href="mailto:phanuelehoussou@gmail.com" title="Email">
