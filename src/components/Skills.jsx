@@ -269,7 +269,7 @@ const Skills = () => {
                   <i className="fas fa-file-pdf"></i>
                 </div>
                 <div>
-                  <h4 className="cv-box-title">Curriculum Vitae • EHOUSSOUS Phanuel</h4>
+                  <h4 className="cv-box-title">Curriculum Vitae • EHOUSSOU Phanuel</h4>
                   <p className="cv-box-desc">
                     Étudiant en Génie Logiciel à l'IIT (Grand-Bassam, Côte d'Ivoire). Consultez le détail complet de mes compétences et réalisations.
                   </p>

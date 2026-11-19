@@ -24,7 +24,7 @@ const About = () => {
   }, []);
 
   const personalDetails = [
-    { label: 'Nom complet', value: "EHOUSSOUS Boman-N'gouan Oint Phanuel", icon: 'fa-user-check' },
+    { label: 'Nom complet', value: "EHOUSSOU Boman-N'gouan Oint Phanuel", icon: 'fa-user-check' },
     { label: 'Statut actuel', value: "Étudiant en Génie Logiciel (depuis 2 ans)", icon: 'fa-university' },
     { label: 'Établissement', value: 'Institut Ivoirien de Technologie (IIT)', icon: 'fa-graduation-cap' },
     { label: 'Localisation', value: 'Grand-Bassam, Côte d\'Ivoire', icon: 'fa-map-pin' },
@@ -103,7 +103,7 @@ const About = () => {
               <div className="about-image-card">
                 <img 
                   src={profileImg} 
-                  alt="EHOUSSOUS BOMAN-N'GOUAN OINT PHANUEL" 
+                  alt="EHOUSSOU BOMAN-N'GOUAN OINT PHANUEL"
                 />
                 <div className="about-image-overlay">
                   <div className="overlay-quote">

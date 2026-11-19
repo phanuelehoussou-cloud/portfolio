@@ -70,7 +70,7 @@ const Hero = () => {
             
             <h1 className="hero-name">
               <span className="greeting">Bonjour & bienvenue, je suis</span>
-              <span className="first-name gradient-text">EHOUSSOUS</span>
+              <span className="first-name gradient-text">EHOUSSOU</span>
               <span className="full-name">Boman-N'gouan Oint Phanuel</span>
             </h1>
 
@@ -135,7 +135,7 @@ const Hero = () => {
               <div className="profile-image-container">
                 <img 
                   src={profileImg} 
-                  alt="EHOUSSOUS BOMAN-N'GOUAN OINT PHANUEL" 
+                  alt="EHOUSSOU BOMAN-N'GOUAN OINT PHANUEL"
                   className="profile-image" 
                 />
               </div>
