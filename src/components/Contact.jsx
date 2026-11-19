@@ -74,11 +74,11 @@ const Contact = () => {
       color: '#f59e0b'
     },
     {
-      icon: 'fa-university',
-      title: 'Formation Académique',
-      value: 'Institut Ivoirien de Tech (IIT)',
-      action: '#',
-      btnText: 'Étudiant Génie Logiciel',
+      icon: 'fab fa-linkedin-in',
+      title: 'LinkedIn',
+      value: 'Profil professionnel',
+      action: 'https://www.linkedin.com/in/boman-n%E2%80%99gouan-oint-phanuel-ehousssou-414b9a414',
+      btnText: 'Voir mon profil LinkedIn',
       color: '#3b82f6'
     }
   ];
@@ -109,7 +109,7 @@ const Contact = () => {
                   className="contact-channel-icon"
                   style={{ background: `linear-gradient(135deg, ${card.color} 0%, rgba(10,10,35,0.8) 100%)` }}
                 >
-                  <i className={`fas ${card.icon}`}></i>
+                  <i className={card.icon.startsWith('fab ') ? card.icon : `fas ${card.icon}`}></i>
                 </div>
                 <h4 className="contact-channel-title">{card.title}</h4>
                 <p className="contact-channel-value">{card.value}</p>
