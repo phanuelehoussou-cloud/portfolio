@@ -54,7 +54,7 @@ Ce projet est une application web monopage (SPA) moderne, réactive et performan
    - Parcours académique à l'IIT
    - Expériences et réalisations logicielles
 3. **Projets / Ce que j'ai fait (`#projets`)**
-   - 6 projets concrets (Flask & Pandas, SQL Server T-SQL, Langage C Système, Portfolio, Application Académique IIT, Scripts Analytiques)
+   - 5 projets : PH.AI, agent_ph.ai, edu.AI (réalisé en groupe), reproduction du site PH.King repéré sur Wix.com et portfolio professionnel
    - Filtres interactifs par catégorie technologique
    - Fenêtre modale avec détails complets et points clés
 4. **Contact / Me contacter (`#contact`)**

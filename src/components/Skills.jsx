@@ -92,20 +92,21 @@ const Skills = () => {
 
   const experiences = [
     {
-      role: 'Conception d\'Applications & Projets de Génie Logiciel',
-      company: 'Institut Ivoirien de Technologie (IIT) & Projets Personnels',
-      period: 'Depuis 2 ans',
+      role: 'Projets en intelligence artificielle et développement web',
+      company: 'Projets personnels et académiques',
+      period: 'Réalisations',
       tasks: [
-        'Développement d\'applications web avec Python (Flask) et interfaces réactives sous Bootstrap 5.',
-        'Conception de schémas relationnels de bases de données et écriture de requêtes T-SQL complexes sous SQL Server.',
-        'Développement de programmes système et d\'algorithmes d\'optimisation en langage C.',
-        'Collaboration efficace en environnement d\'équipe multiculturel et documentation technique en anglais.'
+        'PH.AI : assistant vocal Python qui reconnaît les questions, interroge un modèle via l’API Groq et répond avec une voix de synthèse.',
+        'ph_king (agent_ph.ai) : assistant personnel en français avec bot Telegram et interface web, rappels, liste de courses, documents PDF et fonctions Gmail avec validation avant envoi.',
+        'edu.AI : tuteur virtuel scolaire avec modes Web et vocal, conçu en groupe; il couvre les mathématiques, la physique-chimie, les SVT, la philosophie, le français et la culture générale.',
+        'Site PH.King (site_wix) : reproduction d’un site vitrine repéré sur Wix.com, consacré à l’aménagement et à la rénovation.',
+        'Portfolio professionnel : application monopage responsive réalisée avec React 19, Vite et Bootstrap 5.'
       ]
     },
     {
       role: 'Activités & Travail Collaboratif',
       company: 'Groupes d\'Étude & Projets Académiques IIT',
-      period: '2023 - Présent',
+      period: '2025 - Présent',
       tasks: [
         'Participation active aux ateliers de modélisation logicielle et revues de code entre pairs.',
         'Pratique d\'activités collectives développant la cohésion : Football, Basketball et veille par la lecture.',

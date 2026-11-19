@@ -59,9 +59,9 @@ const About = () => {
 
   const hobbies = [
     {
-      icon: 'fa-futbol',
-      title: 'Football',
-      desc: 'Esprit d\'équipe, sens tactique, solidarité sur le terrain et persévérance dans l\'effort collectif.'
+      icon: 'fa-utensils',
+      title: 'Cuisine',
+      desc: 'Découverte de nouvelles recettes, créativité et plaisir de préparer de bons plats.'
     },
     {
       icon: 'fa-book-open-reader',

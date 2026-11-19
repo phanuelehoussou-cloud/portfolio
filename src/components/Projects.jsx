@@ -1,4 +1,9 @@
 import { useState, useEffect, useRef } from 'react';
+import phAiImage from '../assets/ph-ai.png';
+import phKingImage from '../assets/ph-king.png';
+import eduAiImage from '../assets/edu-ai.png';
+import siteWixImage from '../assets/site-wix.png';
+import profileImage from '../assets/profile.jpg';
 import './Projects.css';
 
 const Projects = () => {
@@ -27,112 +32,75 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Application Web Flask & Analyse de Données',
-      category: 'python',
-      tag: 'Python & Flask',
-      imageIcon: 'fa-pepper-hot',
-      gradient: 'linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%)',
-      summary: 'Plateforme web interactive développée avec Flask, intégrant Pandas et NumPy pour le traitement analytique de données.',
-      description: 'Conception d\'une application web complète avec le micro-framework Flask. Intègre des modules Python utilisant Pandas et NumPy pour ingérer, nettoyer et analyser des séries statistiques avec restitution visuelle sous Bootstrap 5.',
-      technologies: ['Python', 'Flask', 'Pandas', 'NumPy', 'Bootstrap 5', 'HTML5/CSS3'],
-      github: 'https://github.com/phanuelehoussou-cloud',
-      demo: '#',
-      highlights: [
-        'Architecture backend modulaire avec routage dynamique Flask',
-        'Agrégations et analyses statistiques rapides avec Pandas & NumPy',
-        'Interface utilisateur épurée et entièrement responsive avec Bootstrap 5'
-      ]
+      title: 'PH.AI — Assistant vocal intelligent',
+      category: 'ai',
+      tag: 'Python · IA vocale',
+      imageIcon: 'fa-microphone-lines',
+      image: phAiImage,
+      gradient: 'linear-gradient(135deg, #6c63ff 0%, #4338ca 100%)',
+      summary: 'Assistant vocal en français qui écoute les questions et répond avec une voix de synthèse.',
+      description: 'PH.AI est un assistant vocal personnel. Le programme reconnaît la parole, interroge un modèle d’intelligence artificielle via l’API Groq et restitue une réponse vocale. Il prend aussi en charge une écoute déclenchée par mot-clé et une interaction au clavier.',
+      technologies: ['Python', 'API Groq', 'Reconnaissance vocale', 'Synthèse vocale', 'pygame'],
+      github: 'https://github.com/phanuelehoussou-cloud/PH.AI',
+      highlights: ['Interaction vocale et textuelle', 'Réponses générées par un modèle de langage', 'Écoute activable par mot-clé'],
     },
     {
       id: 2,
-      title: 'Conception de Base de Données & Requêtes Complexes T-SQL',
-      category: 'sql',
-      tag: 'SQL Server & T-SQL',
-      imageIcon: 'fa-database',
-      gradient: 'linear-gradient(135deg, #00d4aa 0%, #0d9488 100%)',
-      summary: 'Modélisation relationnelle rigoureuse et écriture de requêtes complexes sous Microsoft SQL Server.',
-      description: 'Élaboration de schémas relationnels normalisés (3NF) pour un système d\'information complexe. Écriture de requêtes T-SQL avancées (jointures multiples, sous-requêtes, fenêtrage, vues et procédures stockées).',
-      technologies: ['SQL Server', 'T-SQL', 'Schémas relationnels', 'Normalisation 3NF', 'Procédures stockées'],
-      github: 'https://github.com/phanuelehoussou-cloud',
-      demo: '#',
-      highlights: [
-        'Modélisation entité-association respectant scrupuleusement l\'intégrité référentielle',
-        'Optimisation du temps d\'exécution des requêtes grâce à une indexation ciblée',
-        'Création de procédures stockées sécurisées pour les opérations critiques'
-      ]
+      title: 'ph_king — Agent personnel IA',
+      category: 'ai',
+      tag: 'Agent IA · Telegram & Web',
+      imageIcon: 'fa-robot',
+      image: phKingImage,
+      gradient: 'linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%)',
+      summary: 'Assistant personnel en français accessible par Telegram et par une interface web.',
+      description: 'ph_king est un assistant personnel alimenté par un modèle OpenAI compatible. Le README décrit un bot Telegram et une interface web, ainsi que des fonctions de liste de courses, rappels, gestion de documents PDF et connexion Gmail. Une validation est demandée avant tout envoi Gmail.',
+      technologies: ['TypeScript', 'Node.js', 'Telegram', 'OpenAI API', 'SQLite', 'Gmail OAuth'],
+      github: 'https://github.com/phanuelehoussou-cloud/agent_ph.ai',
+      demo: 'https://agentphai.vercel.app/',
+      highlights: ['Accès depuis Telegram et le Web', 'Rappels, liste de courses et documents PDF', 'Validation avant envoi de courriels'],
     },
     {
       id: 3,
-      title: 'Module de Programmation Système & Algorithmes en Langage C',
-      category: 'system',
-      tag: 'Langage C & Système',
-      imageIcon: 'fa-microchip',
-      gradient: 'linear-gradient(135deg, #6c63ff 0%, #8b5cf6 100%)',
-      summary: 'Implémentation d\'algorithmes fondamentaux et gestion dynamique de mémoire en langage C.',
-      description: 'Développement d\'un ensemble d\'outils système et de structures de données dynamiques (listes simplement et doublement chaînées, piles, files) en langage C avec gestion rigoureuse des pointeurs et absence de fuites de mémoire (valgrind compliant).',
-      technologies: ['Langage C', 'Programmation système', 'Pointeurs', 'Gestion mémoire (malloc/free)', 'Algorithmique'],
-      github: 'https://github.com/phanuelehoussou-cloud',
-      demo: '#',
-      highlights: [
-        'Maîtrise approfondie de l\'allocation dynamique et des arithmétiques de pointeurs',
-        'Implémentation robuste de structures de données linéaires et arborescentes',
-        'Optimisation des performances d\'exécution et de l\'empreinte mémoire'
-      ]
+      title: 'edu.AI — Tuteur virtuel scolaire',
+      category: 'ai',
+      tag: 'Projet réalisé en groupe · IA',
+      imageIcon: 'fa-graduation-cap',
+      image: eduAiImage,
+      gradient: 'linear-gradient(135deg, #ec4899 0%, #be185d 100%)',
+      summary: 'Tuteur IA destiné aux élèves, conçu en groupe, avec des cours par matière et des échanges vocaux.',
+      description: 'edu.AI (Akwaba / EduIA) est un projet réalisé en groupe. Le code présente un tuteur virtuel orienté vers le programme scolaire ivoirien, qui accompagne les élèves dans six domaines : mathématiques, physique-chimie, SVT, philosophie, français et culture générale. Une version Web utilise Flask et une version vocale permet de dialoguer à l’oral.',
+      technologies: ['Python', 'Flask', 'API Groq', 'HTML', 'Reconnaissance vocale', 'Synthèse vocale'],
+      github: 'https://github.com/phanuelehoussou-cloud/projet_hackathon',
+      highlights: ['Projet conçu en groupe', 'Tuteur adapté au contexte scolaire ivoirien', 'Modes Web et vocal'],
     },
     {
       id: 4,
-      title: 'Portfolio Professionnel Réactif & Moderne',
+      title: 'Site web PH.King — Rénovation',
       category: 'web',
-      tag: 'Web & Bootstrap 5',
-      imageIcon: 'fa-gem',
+      tag: 'Reproduction Wix.com · HTML & CSS',
+      imageIcon: 'fa-laptop-code',
+      image: siteWixImage,
       gradient: 'linear-gradient(135deg, #f59e0b 0%, #ea580c 100%)',
-      summary: 'Application web monopage réactive mettant en valeur les compétences et le CV d\'EHOUSSOUS Phanuel.',
-      description: 'Création d\'un portfolio interactif responsive avec une esthétique moderne (dark theme, glassmorphism). Intègre des composants dynamiques, des ancres de défilement fluide et une conformité rigoureuse aux standards du web.',
-      technologies: ['HTML5', 'CSS3', 'Bootstrap 5', 'JavaScript', 'React 19'],
-      github: 'https://github.com/phanuelehoussou-cloud/portfolio.git',
-      demo: '#',
-      highlights: [
-        'Single Page Application (SPA) ergonomique avec défilement fluide',
-        'Intégration fidèle des compétences du CV (Python, Flask, C, SQL Server, Bootstrap)',
-        'Navigation responsive fluide avec barre d\'ancres interactives'
-      ]
+      summary: 'Reproduction d’un site vitrine repéré sur Wix.com, pour PH.King et son activité de rénovation.',
+      description: 'Le dépôt site_wix reproduit un site vitrine présenté sur Wix.com pour PH.King, une société de rénovation. Il comprend une page d’accueil avec bannière principale, une page À propos et une page Contact. L’interface s’appuie sur Bootstrap et des feuilles de style personnalisées.',
+      technologies: ['HTML5', 'CSS3', 'Bootstrap', 'JavaScript', 'AOS'],
+      github: 'https://github.com/phanuelehoussou-cloud/site_wix',
+      highlights: ['Reproduction d’un modèle de site présenté sur Wix.com', 'Présentation des services d’aménagement et de rénovation', 'Navigation entre accueil, à propos et contact'],
     },
     {
       id: 5,
-      title: 'Application Web de Gestion Académique (IIT)',
-      category: 'python',
-      tag: 'Flask & SQL',
-      imageIcon: 'fa-graduation-cap',
-      gradient: 'linear-gradient(135deg, #ec4899 0%, #be185d 100%)',
-      summary: 'Système web de gestion pédagogique et des évaluations pour les étudiants de l\'IIT.',
-      description: 'Projet collaboratif réalisé dans le cadre de la formation en Génie Logiciel à l\'IIT. Permet la gestion des inscriptions, l\'enregistrement des notes et le calcul automatique des moyennes avec stockage en base de données relationnelle.',
-      technologies: ['Python', 'Flask', 'SQL Server', 'Bootstrap 5', 'Jinja2'],
-      github: 'https://github.com/phanuelehoussou-cloud',
-      demo: '#',
-      highlights: [
-        'Authentification sécurisée et séparation des rôles (enseignant / étudiant)',
-        'Calcul automatisé des moyennes et des rangs avec gestion des coefficients',
-        'Interface épurée et ergonomique facilitant la saisie rapide des notes'
-      ]
+      title: 'Portfolio professionnel',
+      category: 'web',
+      tag: 'React · Vite',
+      imageIcon: 'fa-gem',
+      image: profileImage,
+      gradient: 'linear-gradient(135deg, #14b8a6 0%, #0f766e 100%)',
+      summary: 'Portfolio monopage présentant le parcours, les compétences, les projets et les moyens de contact.',
+      description: 'Application monopage responsive développée avec React 19, Vite et Bootstrap 5 dans le cadre du cursus à l’Institut Ivoirien de Technologie. Elle rassemble le profil, le CV, les projets et les coordonnées de contact.',
+      technologies: ['React 19', 'Vite', 'Bootstrap 5', 'JavaScript', 'CSS'],
+      github: 'https://github.com/phanuelehoussou-cloud/portfolio',
+      highlights: ['Application monopage responsive', 'Sections profil, CV, projets et contact', 'Développé dans le cadre du cursus à l’IIT'],
     },
-    {
-      id: 6,
-      title: 'Traitement de Données & Scripts Analytiques',
-      category: 'python',
-      tag: 'Python & Data',
-      imageIcon: 'fa-chart-simple',
-      gradient: 'linear-gradient(135deg, #06b6d4 0%, #0284c7 100%)',
-      summary: 'Suite de scripts Python pour l\'extraction, le nettoyage et la modélisation statistique de données.',
-      description: 'Pipeline de traitement de jeux de données volumineux : manipulation de DataFrames avec Pandas, calculs vectorisés avec NumPy et génération automatique de rapports synthétiques.',
-      technologies: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Data Cleaning'],
-      github: 'https://github.com/phanuelehoussou-cloud',
-      demo: '#',
-      highlights: [
-        'Nettoyage automatisé et gestion des valeurs manquantes dans les jeux de données',
-        'Calculs matriciels vectorisés haute performance avec NumPy',
-        'Génération de visualisations graphiques pertinentes pour l\'aide à la décision'
-      ]
-    }
   ];
 
   const filteredProjects = filter === 'all' 
@@ -152,7 +120,7 @@ const Projects = () => {
           </h2>
           <span className="title-line"></span>
           <p className="section-subtitle">
-            Une sélection de réalisations techniques concrètes démontrant mon savoir-faire en Python, Flask, SQL Server, langage C et développement web moderne.
+            Cinq réalisations autour de l’intelligence artificielle, des assistants vocaux et du développement web.
           </p>
         </div>
 
@@ -165,22 +133,10 @@ const Projects = () => {
             Tous les projets ({projects.length})
           </button>
           <button 
-            className={`filter-btn ${filter === 'python' ? 'active' : ''}`}
-            onClick={() => setFilter('python')}
+            className={`filter-btn ${filter === 'ai' ? 'active' : ''}`}
+            onClick={() => setFilter('ai')}
           >
-            <i className="fab fa-python"></i> Python & Flask
-          </button>
-          <button 
-            className={`filter-btn ${filter === 'sql' ? 'active' : ''}`}
-            onClick={() => setFilter('sql')}
-          >
-            <i className="fas fa-database"></i> SQL Server
-          </button>
-          <button 
-            className={`filter-btn ${filter === 'system' ? 'active' : ''}`}
-            onClick={() => setFilter('system')}
-          >
-            <i className="fas fa-microchip"></i> Langage C (Système)
+            <i className="fas fa-brain"></i> Intelligence artificielle
           </button>
           <button 
             className={`filter-btn ${filter === 'web' ? 'active' : ''}`}
@@ -199,9 +155,13 @@ const Projects = () => {
                   className="project-banner"
                   style={{ background: project.gradient }}
                 >
-                  <div className="project-icon-large">
-                    <i className={`fas ${project.imageIcon}`}></i>
-                  </div>
+                  {project.image ? (
+                    <img className="project-banner-image" src={project.image} alt={`Capture d’écran du projet ${project.title}`} />
+                  ) : (
+                    <div className="project-icon-large">
+                      <i className={`fas ${project.imageIcon}`}></i>
+                    </div>
+                  )}
                   <span className="project-tag-badge">{project.tag}</span>
                 </div>
 
@@ -248,7 +208,7 @@ const Projects = () => {
           <div className="row g-3 text-center">
             <div className="col-6 col-md-3">
               <div className="metric-box">
-                <span className="metric-number">6+</span>
+                <span className="metric-number">5</span>
                 <span className="metric-name">Projets Majeurs</span>
               </div>
             </div>
@@ -260,14 +220,14 @@ const Projects = () => {
             </div>
             <div className="col-6 col-md-3">
               <div className="metric-box">
-                <span className="metric-number">AWS & GCP</span>
-                <span className="metric-name">Plateformes Cloud</span>
+                <span className="metric-number">3</span>
+                <span className="metric-name">Projets IA</span>
               </div>
             </div>
             <div className="col-6 col-md-3">
               <div className="metric-box">
-                <span className="metric-number">React 19</span>
-                <span className="metric-name">Frontend Moderne</span>
+                <span className="metric-number">2</span>
+                <span className="metric-name">Projets Web</span>
               </div>
             </div>
           </div>
